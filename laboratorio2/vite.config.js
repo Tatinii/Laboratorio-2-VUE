@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Laboratorio-2-VUE/',
   plugins: [
     vue(),
     vueDevTools(),
