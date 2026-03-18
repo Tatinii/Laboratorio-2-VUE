@@ -48,7 +48,7 @@ const saldoRestante = computed(() => presupuestoBase.value - totalInvertido.valu
       <input type="number" v-model.number="precioArticulo" placeholder="Precio ($)" class="input-estandar">
       
       <p v-if="errorValidacion" class="mensaje-error">
-        ⚠️ Error: El nombre no puede estar vacío y el precio debe ser mayor a 0.
+        Error: El nombre no puede estar vacío y el precio debe ser mayor a 0.
       </p>
       
       <button @click="registrarComponente" class="boton-accion">Añadir al Presupuesto</button>
